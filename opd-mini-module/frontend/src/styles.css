@@ -1,0 +1,17 @@
+:root{--p:#0f766e;--bg:#f1f5f9;--bd:#e2e8f0}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,Segoe UI,Arial,sans-serif;background:var(--bg);color:#0f172a}
+header{background:var(--p);color:#fff;padding:12px 24px;display:flex;gap:24px;align-items:center;flex-wrap:wrap}
+header h1{font-size:18px;margin:0 16px 0 0}header a{color:#ccfbf1;text-decoration:none;padding:4px 10px;border-radius:6px}
+header a.active{background:#115e59;color:#fff}
+main{max-width:1000px;margin:24px auto;padding:0 16px;display:grid;gap:16px}
+.card{background:#fff;border:1px solid var(--bd);border-radius:10px;padding:16px}
+.card h2{margin:0 0 12px;font-size:16px}
+.row{display:flex;gap:12px;flex-wrap:wrap}.row>label{flex:1;min-width:150px;display:flex;flex-direction:column;font-size:13px;gap:4px}
+input,select,textarea{padding:8px;border:1px solid #cbd5e1;border-radius:6px;font:inherit}
+input.ng-invalid.ng-touched,select.ng-invalid.ng-touched{border-color:#dc2626}
+button{background:var(--p);color:#fff;border:0;padding:8px 14px;border-radius:6px;cursor:pointer;font:inherit}
+button:disabled{opacity:.5;cursor:not-allowed}button.sec{background:#475569}
+table{width:100%;border-collapse:collapse;font-size:14px}th,td{text-align:left;padding:8px;border-bottom:1px solid var(--bd)}
+.err{color:#dc2626;font-size:12px}.msg{padding:10px;border-radius:6px;font-size:14px}
+.ok{background:#dcfce7;color:#166534}.bad{background:#fee2e2;color:#991b1b}.empty{color:#64748b;padding:12px;text-align:center}
+.tag{padding:2px 8px;border-radius:99px;font-size:12px;background:#fef3c7}.tag.COMPLETED{background:#dcfce7}
